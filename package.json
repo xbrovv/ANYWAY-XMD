@@ -1,14 +1,12 @@
 {
-  "name": "ANYWAY-XMD",
-  "version": "2.0.0",
-  "description": "A WhatsApp Bot Created By Mr Anyway",
+  "name": "ishan spark md",
+  "version": "1.0.0",
+  "description": "𝗜𝗦𝗛𝗔𝗡 𝗦𝗣𝗔𝗥𝗞-𝕏 🚀 — A powerful, fast & stable WhatsApp automation bot | ©𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚋𝚢 𝙸𝚂𝙷𝙰𝙽-𝕏",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ishan-spark-md",
+    "stop": "pm2 stop ishan-spark-md",
+    "restart": "pm2 restart ishan-spark-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
